@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Quest</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <audio autoplay src="audi/evilscary_halloween_rick_ross_type_beat_behind_the_mask_6604364 — копия.mp3" type="audio/mpeg"></audio>
+    <main>
+        <div class="container">
+            <div class="poster">
+                <div class="poster__top">
+                    <div class="poster__background">
+                        <img class="poster__img" src="img/desktop.png" alt="poster">
+                    </div>
+                    <div class="poster__text">
+                        <div class="poster__title">
+                            <h2>Halloween Quest:</h2>
+                            <h2>Creepy Old Casino</h2>
+                        </div>
+    
+                        <div class="poster__top-text">
+                            <p>
+                                Get out of the godforsaken casino inhabited by money- and blood-thirsty creatures and get a guaranteed prize!
+                            <br>
+                            <br>                            
+                                In the quest, you will come face-to-face with:<br>
+                                - Fierce zombie dealers and lost souls of players who have never made a deposit<br>
+                                - Unexpected plot twists<br>
+                                - And of course, generous prizes!<br>
+                            </p>
+                        </div>
+                        <div class="poster__image">
+                            <img class="poster__images" src="img/pumpkin.png" alt="pumpkin">
+                        </div>
+                        <div class="poster__bottom">
+                            <div class="poster__bottom-text">
+                                <p>
+                                    There is only one right way. The others will lead you into the hellhole of losing.
+                                </p>
+                                <p>
+                                    You're standing at the entrance to an old, abandoned casino.
+                                </p>
+                                <p>
+                                    One sunny afternoon, all the players and hosts have disappeared without a trace...
+                                </p>
+                                <p>
+                                    Everyone in town keeps away from the place that smells like loss and death
+                                </p>
+                                <br>
+                                <p>
+                                    Would you dare to go inside?
+                                </p>
+                            </div>
+                            <div class="poster__bottom-image">
+                                <img class="poster__bottom-img" src="img/door.png" alt="door">
+                            </div>
+                        </div>
+                        
+                            <!-- modal button -->
+                            <a class="btn btn-door" data-bs-toggle="modal" href="#Modal-1" role="button">Open door</a>
+                            <!-- modal windows -->
+                            <div class="modal fade" id="Modal-1" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-1Label" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">
+                                    <div class="modal__img">
+                                        <img src="img/modal-1.png" alt="no-image">
+                                    </div>
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__text">
+                                        <p>
+                                            Suddenly the front door slams shut.                                        
+                                        </p>
+                                        <p>
+                                            You look back and realize that there are two huge guard figures standing next to it, and you realize there is no turning back
+                                        </p>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button class="btn btn-transition" data-bs-target="#Modal-2" data-bs-toggle="modal">Go Further</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-2" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-2" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                    
+                                    <div class="modal-body">
+                                        <div class="modal__img">
+                                            <img src="img/modal-2.png" alt="no-image">
+                                        </div>
+                                        <div class="modal__img-decoration">
+                                            <img src="img/pumpkin.png" alt="pumpkin">
+                                        </div>
+                                        <div class="modal__text">
+                                            <p>
+                                                There is no one around, only the silence of the grave.  As you                                     
+                                            </p>
+                                            <p>
+                                                As you make your way to the bar, you meet the first living creature and insecurely approach it. It is Highroller, a regular player at the casino. 
+                                            </p>
+                                            <p>
+                                                You ask him why he's the only one here and what's going on?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button class="btn btn-transition btn-long" data-bs-target="#Modal-3" data-bs-toggle="modal">talk to highroller</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-3" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-big">
+                                  <div class="modal-content">                                    
+                                    <div class="modal-body modal-body-3">
+                                        <div class="modal-body__inner">
+                                            <div class="modal__inner-image">
+                                                <img src="img/modal-3.png" alt="no-image">
+                                            </div>
+                                            <div class="modal__inner-text">
+                                                <p>
+                                                    <span>Highroller</span>: Hey old fella, you're lucky you met me first in this godforsaken place. It used to be a lively place where hundreds of players came to have fun and try their luck at various games. Now it's the most dangerous and mysterious spot in town. I don't remember how long ago it happened, but one day everyone just disappeared... It happened so fast, I thought I just blinked, but when I opened my eyes - I was surrounded by zombies, scary, ugly, smelly and wildly losing zombies. Who were hungry both for brains and huge winnings! Unfortunately, the same happened with me.
+                                                </p>
+                                                <p>
+                                                    <span>You</span>: You don't look like a zombie at all, though.
+                                                </p>
+                                                <p>
+                                                    <span>Highroller</span>: Because I am not. No idea how it's possible. Maybe since I carry a huge amount of cash in my pockets, I have no desire to win much and eat someone's brains. Either way, you're in deep shit. To stay alive you need to test your skill and if luck is on your side, you'll get out of here and win your life! Now go and play roulette, the dealer is a good friend of mine, so I suggest you listen to what she has to say.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal__img-decoration margin-none">
+                                            <img src="img/pumpkin.png" alt="pumpkin">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button class="btn btn-transition btn-long" data-bs-target="#Modal-4" data-bs-toggle="modal">Search for the roulette table</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-4" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-4" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                    
+                                    <div class="modal-body">
+                                        <div class="modal__img modal__img-4">
+                                            <img src="img/modal-4.png" alt="no-image">
+                                        </div>
+                                        <div class="modal__img-decoration">
+                                            <img src="img/pumpkin.png" alt="pumpkin">
+                                        </div>
+                                        <div class="modal__inner-text">
+                                            <p>
+                                                <span>Dealer</span>: Will you play roulette in exchange for your salvation? You shall bet all on Zero, otherwise you'll lose. Make your choice, take my advice or leave it to fate! There's no turning back for you anyway!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-4">
+                                        <button class="btn btn-transition btn-4" data-bs-target="#Modal-5" data-bs-toggle="modal">Agree</button>
+                                        <button class="btn btn-transition btn-4" data-bs-target="#Modal-4-died" data-bs-toggle="modal">Refuse</button>
+                                        <button class="btn btn-transition btn-flex-4" data-bs-target="#Modal-6-died" data-bs-toggle="modal">Try to bet on other number</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-5" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-5Label" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">
+                                    <div class="modal__img">
+                                        <img src="img/modal-5.png" alt="no-image">
+                                    </div>
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">
+                                        <p class="text-style">
+                                            Bouncing one last time the ball lands on Zero, and you see new chips appear right and out of thin air! 
+                                        </p>
+                                        <p>
+                                            <span>Dealer</span>: Luck is on your side, but the night is not over yet! 
+                                        </p>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button class="btn btn-transition btn-long" data-bs-target="#Modal-7" data-bs-toggle="modal">Go Further</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-4-died" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-4-diedLabel" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">
+                                    <div class="modal__img">
+                                        <img src="img/modal-5-dead.png" alt="no-image">
+                                    </div>
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text modal__inner-text-4">
+                                        <h4>You died... </h4>
+                                        <p class="text-style">
+                                            You approach the locked door and pull the handle, but your fingers go through it. You hear nasty laughter behind you, and you realize that there's no turning back. You are now a prisoner of this casino, until another, more daring player breaks the ancient curse!
+                                        </p>
+                                        <h5>
+                                            Even though you died, here is a small present for you
+                                        </h5>
+                                        <h4>
+                                            <span>66 free spins for House of Doom slot</span>
+                                        </h4>
+                                        <h6>
+                                            for a deposit from 20 EUR via bonus code 
+                                        </h6>
+                                        <h2>
+                                            HALLOLOSE
+                                        </h2>
+                                        <a class="btn btn-transition btn-long" href="index.html">Try again</a>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">            
+                                        <p>
+                                            Bonus T&C
+                                            <br><br>
+                                            To claim the bonus, use code HALLOLOSE and deposit at least<br>
+                                            20 EUR/USD; 30 CAD/NZD; 200 NOK; 80 PLN; 2,400 JPY once on October 29-31 (UTC)<br>
+                                            The maximum allowed bet while playing with the bonus is<br>
+                                            5 EUR/USD; 8 CAD/NZD; 50 NOK; 20 PLN; 600 JPY<br>
+                                            The maximum winning obtained via bonus free spins for the Spin and Spell and Candy Monsta slots is 50 EUR/USD; 75 CAD/NZD; 500.00 NOK; 200.00 PLN; 6,000 JPY<br>
+                                            Bonus is active for 7 days<br>
+                                            Wager x40<br>
+                                        </p>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-6-died" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-6-diedLabel" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">
+                                    <div class="modal__img">
+                                        <img src="img/modal-5-died.png" alt="no-image">
+                                    </div>
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text modal__inner-text-4">
+                                        <h4>You died... </h4>
+                                        <div class="modal__inner-text">
+                                            <p class="text-style text-style-6">
+                                                Bouncing one last time the ball lands on Zero, and you see your chips disappear right in thin air!
+                                            </p>
+                                            <p class="text-style-6">
+                                                <span>Dealer</span>: You should have listened to me, you arrogant man! Now you'll stay here forever!
+                                            </p>
+                                        </div>
+                                        <h5>
+                                            Even though you died, here is a small present for you
+                                        </h5>
+                                        <h4>
+                                            <span>66 free spins for House of Doom slot</span>
+                                        </h4>
+                                        <h6>
+                                            for a deposit from 20 EUR via bonus code 
+                                        </h6>
+                                        <h2>
+                                            HALLOLOSE
+                                        </h2>
+                                        <a class="btn btn-transition btn-long" href="index.html">Try again</a>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-6">            
+                                        <p>
+                                            Bonus T&C
+                                            <br><br>
+                                            To claim the bonus, use code HALLOLOSE and deposit at least<br>
+                                            20 EUR/USD; 30 CAD/NZD; 200 NOK; 80 PLN; 2,400 JPY once on October 29-31 (UTC)<br>
+                                            The maximum allowed bet while playing with the bonus is<br>
+                                            5 EUR/USD; 8 CAD/NZD; 50 NOK; 20 PLN; 600 JPY<br>
+                                            The maximum winning obtained via bonus free spins for the Spin and Spell and Candy Monsta slots is 50 EUR/USD; 75 CAD/NZD; 500.00 NOK; 200.00 PLN; 6,000 JPY<br>
+                                            Bonus is active for 7 days<br>
+                                            Wager x40<br>
+                                        </p>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-7" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-7Label" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">
+                                    <div class="modal__img">
+                                        <img src="img/modal-6.png" alt="no-image">
+                                    </div>
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">                                        
+                                        <p>
+                                            <span>Skeleton in the hat</span>: Sit down Cowboy, let's play
+                                        </p>
+                                        <p class="text-style">
+                                            The Skeleton quickly deals two cards face down to you and himself. He glimpses of his two cards and says, "Raise”!
+                                        </p>
+                                        <p class="text-style">
+                                            You look at your cards and see 9 and 8 of Diamonds. After thinking a bit you say
+                                        </p>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">
+                                        <button class="btn btn-transition btn-4" data-bs-target="#Modal-8" data-bs-toggle="modal">Call</button>
+                                        <button class="btn btn-transition btn-4" data-bs-target="#Modal-7-died" data-bs-toggle="modal">Pass</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-7-died" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-7-diedLabel" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">
+                                    <div class="modal__img">
+                                        <img src="img/modal-9-died.png" alt="no-image">
+                                    </div>
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text modal__inner-text-4">
+                                        <h4>You died... </h4>
+                                        <div class="modal__inner-text">
+                                            <p class="text-style text-style-6">
+                                                The skeleton with the hat grinns and pushes a button under the table, the floor under your chair slides aside and you fall into a deep hole to fly down forever...
+                                            </p>
+                                            <p class="text-style-6">
+                                                <span>Dealer</span>: You should have listened to me, you arrogant man! Now you'll stay here forever!
+                                            </p>
+                                        </div>
+                                        <h5>
+                                            Even though you died, here is a small present for you
+                                        </h5>
+                                        <h4>
+                                            <span>66 free spins for House of Doom slot</span>
+                                        </h4>
+                                        <h6>
+                                            for a deposit from 20 EUR via bonus code 
+                                        </h6>
+                                        <h2>
+                                            HALLOLOSE
+                                        </h2>
+                                        <a class="btn btn-transition btn-long" href="index.html">Try again</a>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">            
+                                        <p>
+                                            Bonus T&C
+                                            <br><br>
+                                            To claim the bonus, use code HALLOLOSE and deposit at least<br>
+                                            20 EUR/USD; 30 CAD/NZD; 200 NOK; 80 PLN; 2,400 JPY once on October 29-31 (UTC)<br>
+                                            The maximum allowed bet while playing with the bonus is<br>
+                                            5 EUR/USD; 8 CAD/NZD; 50 NOK; 20 PLN; 600 JPY<br>
+                                            The maximum winning obtained via bonus free spins for the Spin and Spell and Candy Monsta slots is 50 EUR/USD; 75 CAD/NZD; 500.00 NOK; 200.00 PLN; 6,000 JPY<br>
+                                            Bonus is active for 7 days<br>
+                                            Wager x40<br>
+                                        </p>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-8" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-8Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">  
+                                    <div class="modal__img modal__img-8">
+                                        <img src="img/10JQ.png" alt="no-image">
+                                    </div> 
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">      
+                                        <p class="text-style">
+                                            The flop appears:<br>
+                                            10 of Spades, J of Diamonds, Q of Hearts
+                                        </p>                                  
+                                        <p>
+                                            <span>Skeleton in the hat</span>: Raise!
+                                        </p>                                     
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">
+                                        <button class="btn btn-transition btn-4" data-bs-target="#Modal-9" data-bs-toggle="modal">Call</button>
+                                        <button class="btn btn-transition btn-4" data-bs-target="#Modal-7-died" data-bs-toggle="modal">Pass</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-9" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-9Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">  
+                                    <div class="modal__img modal__img-8">
+                                        <img src="img/10.png" alt="no-image">
+                                    </div> 
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">      
+                                        <p class="text-style">
+                                            The turn is 10 of Diamonds
+                                        </p>                                  
+                                        <p class="text-style">
+                                            The Skeleton looks at his cards again and says ALL IN
+                                        </p>                                     
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">
+                                        <button class="btn btn-transition btn-4" data-bs-target="#Modal-10" data-bs-toggle="modal">Call</button>
+                                        <button class="btn btn-transition btn-4" data-bs-target="#Modal-7-died" data-bs-toggle="modal">Pass</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-10" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-10Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">  
+                                    <div class="modal__img modal__img-8">
+                                        <img src="img/modal-9.png" alt="no-image">
+                                    </div> 
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">      
+                                        <p class="text-style">
+                                            You reveal your cards. Snidely smiling, the Skeleton shows that he has QQ of Diamonds and Clubs. Full house QQQ1010!
+                                        </p>                           
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">
+                                        <button class="btn btn-transition btn-long" data-bs-target="#Modal-11" data-bs-toggle="modal">watch the river</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-11" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-11Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">  
+                                    <div class="modal__img modal__img-8">
+                                        <img src="img/11.png" alt="no-image">
+                                    </div> 
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">      
+                                        <p class="text-style">
+                                            You realize you only have one out to win! You squint and wait for the river card to be opened...
+                                        </p>                           
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">
+                                        <button class="btn btn-transition btn-long" data-bs-target="#Modal-12" data-bs-toggle="modal">Open your eyes</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-12" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-12Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">  
+                                    <div class="modal__img modal__img-8">
+                                        <img src="img/seven.png" alt="no-image">
+                                    </div> 
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">      
+                                        <p class="text-style">
+                                            7 of Diamonds!!!! You have STRAIGHT FLUSH!!!! 78910J
+                                        </p>   
+                                        <p>
+                                            <span>Skeleton in the hat</span>: Nice hand, now get the fuck out of here!
+                                        </p>                         
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">
+                                        <button class="btn btn-transition btn-long" data-bs-target="#Modal-13" data-bs-toggle="modal">Go Further</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-13" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-13Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">  
+                                    <div class="modal__img modal__img-8">
+                                        <img src="img/modal-12.png" alt="no-image">
+                                    </div> 
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">                                         
+                                        <p>
+                                            <span>You</span>: What the hell! What cruel tortures does fate yet have for me?
+                                        </p>   
+                                        <p class="text-style">
+                                            You are walking around the empty hall with slot machines and suddenly you notice a faint light at the end of the hall. You come closer and see three running slots. Fumbling for the coins in your pocket you decide to play one, but which one?
+                                        </p> 
+                                        <p class="text-style">
+                                            1. The first one is a slot machine with a frog, and judging by the almost dead PUSH button it was really popular.
+                                        </p>   
+                                        <p class="text-style">
+                                            2. The second is quite nice and bright, but on the screen, you see "Low RTP" written in blood. Looks like one of the lost souls here wants to warn you.
+                                        </p>     
+                                        <p class="text-style">
+                                            3. When you looked at the third one you even jumped up a little - a creepy leather book with a dragon eye on the cover. And it seems the eye is blinking and looking right at you. (Book of horror - Spinomenal).
+                                        </p>  
+                                        <p>
+                                            <span>You</span>: Hmmm...which should I choose?
+                                        </p>                        
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-13">
+                                        <button class="btn btn-transition btn-4 btn-5" data-bs-target="#Modal-14" data-bs-toggle="modal">One</button>
+                                        <button class="btn btn-transition btn-4 btn-5" data-bs-target="#Modal-14-died" data-bs-toggle="modal">Two</button>
+                                        <button class="btn btn-transition btn-4 btn-5" data-bs-target="#Modal-14-died-2" data-bs-toggle="modal">Three</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-14-died" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-14-diedLabel" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">
+                                    <div class="modal__img">
+                                        <img src="img/modal-12-died.png" alt="no-image">
+                                    </div>
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text modal__inner-text-4">
+                                        <h4>You died... </h4>
+                                        <div class="modal__inner-text">
+                                            <p class="text-style text-style-6">
+                                                You play and play, wins and loses follows each other, but you never run out of coins. Just one more spin, one more win, the jackpot should be near! ...and you stay playing it forever, completely erasing the PUSH button.
+                                            </p>
+                                        </div>
+                                        <h5>
+                                            Even though you died, here is a small present for you
+                                        </h5>
+                                        <h4>
+                                            <span>66 free spins for House of Doom slot</span>
+                                        </h4>
+                                        <h6>
+                                            for a deposit from 20 EUR via bonus code 
+                                        </h6>
+                                        <h2>
+                                            HALLOLOSE
+                                        </h2>
+                                        <a class="btn btn-transition btn-long" href="index.html">Try again</a>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-14">            
+                                        <p>
+                                            Bonus T&C
+                                            <br><br>
+                                            To claim the bonus, use code HALLOLOSE and deposit at least<br>
+                                            20 EUR/USD; 30 CAD/NZD; 200 NOK; 80 PLN; 2,400 JPY once on October 29-31 (UTC)<br>
+                                            The maximum allowed bet while playing with the bonus is<br>
+                                            5 EUR/USD; 8 CAD/NZD; 50 NOK; 20 PLN; 600 JPY<br>
+                                            The maximum winning obtained via bonus free spins for the Spin and Spell and Candy Monsta slots is 50 EUR/USD; 75 CAD/NZD; 500.00 NOK; 200.00 PLN; 6,000 JPY<br>
+                                            Bonus is active for 7 days<br>
+                                            Wager x40<br>
+                                        </p>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-14-died-2" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-14-died-2Label" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">
+                                    <div class="modal__img">
+                                        <img src="img/modal-13-died.png" alt="no-image">
+                                    </div>
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text modal__inner-text-4">
+                                        <h4>You died... </h4>
+                                        <div class="modal__inner-text">
+                                            <p class="text-style text-style-6">
+                                                Lose, one more lose...some coins back, and you lose again! Playing here you quickly waste all the coins and find two zombie guards standing behind your back. They take you under the arms and forcefully drag you into the back room.
+                                            </p>
+                                        </div>
+                                        <h5>
+                                            Even though you died, here is a small present for you
+                                        </h5>
+                                        <h4>
+                                            <span>66 free spins for House of Doom slot</span>
+                                        </h4>
+                                        <h6>
+                                            for a deposit from 20 EUR via bonus code 
+                                        </h6>
+                                        <h2>
+                                            HALLOLOSE
+                                        </h2>
+                                        <a class="btn btn-transition btn-long" href="index.html">Try again</a>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-14">            
+                                        <p>
+                                            Bonus T&C
+                                            <br><br>
+                                            To claim the bonus, use code HALLOLOSE and deposit at least<br>
+                                            20 EUR/USD; 30 CAD/NZD; 200 NOK; 80 PLN; 2,400 JPY once on October 29-31 (UTC)<br>
+                                            The maximum allowed bet while playing with the bonus is<br>
+                                            5 EUR/USD; 8 CAD/NZD; 50 NOK; 20 PLN; 600 JPY<br>
+                                            The maximum winning obtained via bonus free spins for the Spin and Spell and Candy Monsta slots is 50 EUR/USD; 75 CAD/NZD; 500.00 NOK; 200.00 PLN; 6,000 JPY<br>
+                                            Bonus is active for 7 days<br>
+                                            Wager x40<br>
+                                        </p>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-14" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-14Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">  
+                                    <div class="modal__img modal__img-8">
+                                        <img src="img/modal-13.png" alt="no-image">
+                                    </div> 
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">      
+                                        <p class="text-style">
+                                            Whoo-hoo!<br>
+                                            Just after a few spins you hit the JACKPOT, the slot starts ringing loud as hell and flashes all the lights like a New Year tree, and you realize that the noise attracts all the inhabitants of the casino and run away as soon as possible.
+                                        </p>                           
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">
+                                        <button class="btn btn-transition btn-long" data-bs-target="#Modal-15" data-bs-toggle="modal">Go Further</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-15" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-15Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">  
+                                    <div class="modal__img modal__img-8">
+                                        <img src="img/modal-14.png" alt="no-image">
+                                    </div> 
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text">      
+                                        <p class="text-style">
+                                            Bright lights and sounds attracted the attention of all the inmates of the old casino, and you hear zombies approaching you from all sides. You try to get away from the slot as far as possible before the zombies surround you. After running a few halls you notice that the casino entrance is no longer guarded. Here it is! It’s your only chance to escape!
+                                        </p>    
+                                        
+                                        <p class="text-style">
+                                            Freedom is almost here! But just before you exit a huge zombie guard stands in your way, with one hand he grabs you by the neck and lifts you above his head. You feel your legs twitch and your life leaves you. Almost unconscious, you notice a blurry silhouette approaching you at high speed, and seconds later the guard's hand releases your throat and you fall to the floor. When you come to your senses, you see the High Roller you met before who throws cash at the guard. Zombie greedily catches it and picks banknotes up off the floor.
+                                        </p>
+
+                                        <p class="text-style">
+                                            <span>Highroller</span>: What are you waiting for, fool! Hurry up and get out of this place before it consumes your soul!
+                                        </p>
+
+                                        <p class="text-style">
+                                            You don't need to be asked twice, you run to the exit, open the door, the bright light blinds you and...
+
+                                        </p>
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-7">
+                                        <button class="btn btn-transition btn-long" data-bs-target="#Modal-15-win" data-bs-toggle="modal">Next</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="Modal-15-win" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="Modal-15-winLabel" tabindex="-1">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">                                   
+                                    <div class="modal-body">
+                                    <div class="modal__img">
+                                        <img src="img/modal-15.png" alt="no-image">
+                                    </div>
+                                    <div class="modal__img-decoration">
+                                        <img src="img/pumpkin.png" alt="pumpkin">
+                                    </div>
+                                    <div class="modal__inner-text modal__inner-text-4">
+                                        <div class="modal__inner-text">
+                                            <p class="text-style text-style-6">
+                                                You wake up. <br> <br>
+
+                                                Jumping out of your bed you slowly come to your senses and realize that it was a dream. Taking the phone you see the date.  October 31 - All Saints Day (Halloween). You also notice one unread message in the mail, opening it you see that your favorite casino has sent you a new promo code specifically for the holiday
+
+                                            </p>
+                                        </div>
+                                        <h5>
+                                            Congratulations! You’ve survived and here is your prize 
+                                        </h5>
+                                        <h4>
+                                            <span>110% up to 666 EUR + 66 free spins for House of Doom slot</span>
+                                        </h4>
+                                        <h6>
+                                            for a deposit from 20 EUR via bonus code 
+                                        </h6>
+                                        <h2>
+                                            HALLOWIN
+                                        </h2>                                    
+                                    </div>
+                                    </div>
+                                    <div class="modal-footer modal-footer-15">            
+                                        <p>
+                                            Bonus T&C
+                                            <br><br>
+                                            To claim the bonus, use code HALLOLOSE and deposit at least<br>
+                                            20 EUR/USD; 30 CAD/NZD; 200 NOK; 80 PLN; 2,400 JPY once on October 29-31 (UTC)<br>
+                                            The maximum allowed bet while playing with the bonus is<br>
+                                            5 EUR/USD; 8 CAD/NZD; 50 NOK; 20 PLN; 600 JPY<br>
+                                            The maximum winning obtained via bonus free spins for the Spin and Spell and Candy Monsta slots is 50 EUR/USD; 75 CAD/NZD; 500.00 NOK; 200.00 PLN; 6,000 JPY<br>
+                                            Bonus is active for 7 days<br>
+                                            Wager x40<br>
+                                        </p>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                </div>
+            </div>
+        </div>        
+       
+    </main> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", event => {
+        const audio = document.querySelector("audio");
+        audio.volume = 0.2;
+        audio.play();
+        });
+
+        const button = document.querySelector("#button");
+        const icon = document.querySelector("#button > i");
+        const audio = document.querySelector("audio");
+
+        button.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.volume = 0.2;
+            audio.play();
+            icon.classList.remove('fa-volume-up');
+            icon.classList.add('fa-volume-mute');
+            
+        } else {
+            audio.pause();
+            icon.classList.remove('fa-volume-mute');
+            icon.classList.add('fa-volume-up');
+        }
+        button.classList.add("fade");
+        });
+    </script>
+</body>
+</html>
