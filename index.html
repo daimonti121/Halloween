@@ -15,8 +15,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <audio autoplay src="audi/evilscary_halloween_rick_ross_type_beat_behind_the_mask_6604364 — копия.mp3" type="audio/mpeg"></audio>
+<body>   
     <main>
         <div class="container">
             <div class="poster">
@@ -748,36 +747,9 @@
                         </div>
                 </div>
             </div>
-        </div>        
-       
+        </div>         
     </main> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script>
-        window.addEventListener("DOMContentLoaded", event => {
-        const audio = document.querySelector("audio");
-        audio.volume = 0.2;
-        audio.play();
-        });
-
-        const button = document.querySelector("#button");
-        const icon = document.querySelector("#button > i");
-        const audio = document.querySelector("audio");
-
-        button.addEventListener("click", () => {
-        if (audio.paused) {
-            audio.volume = 0.2;
-            audio.play();
-            icon.classList.remove('fa-volume-up');
-            icon.classList.add('fa-volume-mute');
-            
-        } else {
-            audio.pause();
-            icon.classList.remove('fa-volume-mute');
-            icon.classList.add('fa-volume-up');
-        }
-        button.classList.add("fade");
-        });
-    </script>
 </body>
 </html>
